@@ -80,10 +80,25 @@ a {
   padding-top: 0.5em;
 }
 
+#workblock h1 {
+  margin-top: 124px;
+  padding-bottom: 2%;
+}
+.workblock {
+  width: 30%;
+  float: left;
+  margin: 0 0 0 3%;
+  padding: 0 0 0 2%;
+}
+.workblock img {
+  width: 100%;
+}
+
+.clr {
+  clear: both;
+}
 /* Typography */
-h1,
-h2,
-h3 {
+#headerbox1 h1 {
   font-family: "Bebas Neue";
   font-size: 80px;
   font-style: normal;
@@ -101,6 +116,26 @@ p {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+#headerbox2 h1 {
+  font-family: Bebas Neue;
+  font-size: 48px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#workblock h1 {
+  font-family: Bebas Neue;
+  font-size: 48px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .header-color-blue {

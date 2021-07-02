@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap");
+/* Reset Default CSS rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+heading color blue - #363958
+heading color Red - #F46060
+Primary Color - #3E3E3E;
+
+
+*/
+html,
+body {
+  background: #ffffff;
+  font-family: "Bebas Neue", "Roboto", cursive, sans-serif;
+  line-height: 1.7em;
+  color: #3e3e3e;
+}
+
+/* .container {
+  margin-left: 125px;
+  margin-right: 125px;
+} */
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2em;
+  padding: 7px;
+  border-width: 0;
+  background: linear-gradient(0deg, #ff8063 -28.33%, #f46060 95.83%);
+  border-radius: 6px;
+}
+
+#navbar {
+  color: #3e3e3e;
+  overflow: auto;
+  padding-right: 142px;
+}
+
+#navbar a {
+  color: #3e3e3e;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.half-width img {
+  width: 70%;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header-color-blue {
+  color: #363958;
+}
+
+.header-color-red {
+  color: #f46060;
+  text-transform: uppercase;
+}

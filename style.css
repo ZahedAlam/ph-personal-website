@@ -67,13 +67,17 @@ a {
 .half-width {
   width: 40%;
   float: left;
-  margin-top: 5%;
-  margin-left: 5%;
-  padding-left: 2%;
+  margin: 5% 0 0 5%;
+  padding: 2% 0 0 2%;
 }
 
 .half-width img {
-  width: 70%;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.half-width h1 {
+  padding-top: 0.5em;
 }
 
 /* Typography */
